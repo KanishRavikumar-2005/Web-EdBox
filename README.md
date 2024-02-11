@@ -1,5 +1,11 @@
 # Web EdBox
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub contributors](https://img.shields.io/github/contributors/kanishravikumar-2005/Web-EdBox.svg)](https://github.com/kanishravikumar-2005/Web-EdBox/graphs/contributors)
+![Pull Requests](https://img.shields.io/github/issues-pr/kanishravikumar-2005/Web-EdBox) [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kanishravikumar-2005/Web-EdBox.svg)](https://github.com/kanishravikumar-2005/Web-EdBox) [![GitHub last commit](https://img.shields.io/github/last-commit/kanishravikumar-2005/Web-EdBox.svg)](https://github.com/kanishravikumar-2005/Web-EdBox/commits/master)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/kanishravikumar-2005/Web-EdBox?include_prereleases)
+
+[![GitHub stars](https://img.shields.io/github/stars/kanishravikumar-2005/Web-EdBox.svg)](https://github.com/kanishravikumar-2005/Web-EdBox/stargazers)[![GitHub forks](https://img.shields.io/github/forks/kanishravikumar-2005/Web-EdBox.svg)](https://github.com/kanishravikumar-2005/Web-EdBox/network)
 
 Web EdBox is an open-source project editor IDE built entirely in PHP. It provides a secure environment for managing and editing project code on a server without granting full server access. With Web EdBox, managers can create and manage developers and admins, while developers have access to edit the code of the project.
 
