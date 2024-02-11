@@ -1,0 +1,227 @@
+body{
+  font-family: Jost;
+}
+
+topbar{
+  background-color: #ffffff;
+  padding: 5px 15px;
+  border-bottom: 1px solid #ccc;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left{
+  height: fit-content;
+  display: flex;
+  align-items: center;
+}
+.mainBtn{
+  background-color: transparent;
+  border: solid;
+  border-color: #0969DA;
+  color: #0969DA;
+  /* font-weight: 600; */
+  padding: 6px 8px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.Lout{
+  background-color: transparent;
+  border-color: rgb(255 94 94);
+  color:rgb(255 94 94);
+}
+.mainBtn:hover{
+  background-color: #f4f6f7;
+}
+.othrBtn{
+  border-style: solid;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #F6F8FA;
+  border-color: #ccc;
+  color: #242323;
+  text-decoration: none;
+  padding: 2px 8px;
+
+}
+midbar{
+  position: absolute;
+  top: 45px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+leftbar{
+  position:absolute;
+  top:0px;
+  left:0px;
+  bottom: 0px;
+  width: 250px;
+  border-right-style: solid;
+  border-width: 1px;
+  border-color: #ccc;
+}
+.frmx{
+  display: flex;
+  justify-content: center;
+}
+rightbar{
+  position:absolute;
+  top:0px;
+  left:250px;
+  bottom: 0px;
+  right: 0px;
+  border-left-style: solid;
+  border-width: 1px;
+  border-color: #ccc;
+  box-sizing: border-box;
+}
+.boxbar{
+  position: absolute;
+  display: flex;
+  top: 0px;
+  left:0px;
+  right: 0px;
+  height: 40px;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: #ccc;
+  justify-content: center;
+  align-items: center;
+}
+.scrolbax{
+  position: absolute;
+  top: 41px;
+  left:0px;
+  right: 0px;
+  bottom: 0px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.itemurl{
+  display: flex;
+  width:99%;
+  border-style:solid;
+  box-sizing: border-box;
+  margin: 3px;
+  border-radius: 4px;
+  padding: 5px;
+  text-decoration: none;
+  border-width: 0px;
+  color: black;
+}
+.itemurl:hover{
+  background-color: #1a73e81a;
+}
+.activefile{
+  background-color: #1a73e81a;
+}
+.newBtn{
+  border: none;
+  background: transparent;
+  padding: 3px;
+  font-size: 20px;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 0px;
+  border-radius:5px;
+}
+.newBtn:hover{
+  background-color: #eae9e9;
+}
+.newInp{
+  border:none;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  outline: none;
+  padding: 5px;
+  border-color: #D0D7DE;
+}
+.newInp:focus{
+  border-color: #0969DA;
+  border-width: 2px;
+}
+.mainbx{
+  position: absolute;
+  top: 40px;
+  left:0px;
+  right: 0px;
+  bottom: 0px;
+  border-top-style: solid;
+  border-width: 1px;
+  border-color:#ccc;
+  background-color: #F8F9FA;
+}
+.statusbox{
+  position: absolute;
+  top: 0px;
+  left:0px;
+  right: 0px;
+  height: 40px;
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+}
+.stts{
+  color: #686464;
+  padding-right: 10px;
+  border-right-style: solid;
+  border-right-width: 1px;
+}
+.ptts{
+  color: #686464;
+  padding-left: 10px;
+}
+.ptts a{
+  color: #006bff;
+  text-decoration: none;
+}
+.edsx{
+  position: absolute;
+  font-size: 14px;
+  top: 15px;
+  left: 15px;
+  bottom: 0px;
+  right: 0px;
+}
+.ace_content{
+  background-color: #F8F9FA;
+}
+.ace_gutter-layer{
+  background-color: #F8F9FA;
+}
+.ace_print-margin {
+    display: none !important;
+}
+.ace_gutter-active-line{
+  background-color: transparent!important;
+  font-weight: bold!important;
+}
+.ace_active-line {
+  background-color: transparent!important;
+  border-style: solid!important;
+  border-width:2px!important;
+  border-color: #EEEEEE!important;
+}
+
+
+.ace_scrollbar::-webkit-scrollbar {
+    width: 10px; /* Set the width of the scrollbar for WebKit browsers (Chrome, Safari) */
+}
+
+.ace_scrollbar::-webkit-scrollbar-thumb {
+    background-color: #a0a0a0; /* Set the color of the scrollbar thumb */
+}
+.disabled-link {
+    pointer-events: none;
+    color: gray; /* Optionally, change the color to indicate it's disabled */
+    text-decoration: none; /* Optionally, remove underline for disabled link */
+}
